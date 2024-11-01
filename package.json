@@ -1,10 +1,13 @@
 {
+  "homepage": "htttp://WennaRose.github.io/my-25-plus-5-clock",
   "name": "my-25-plus-5-clock",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
