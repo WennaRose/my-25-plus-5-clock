@@ -54,10 +54,7 @@
 button > * {
   pointer-events: none;
 }
-body {
-  background-color: #ffdada !important;
-  justify-content: center;
-}
+
 .blur-bg {
   height: 100%;
   width: 100%;

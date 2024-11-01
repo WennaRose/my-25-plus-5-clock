@@ -12,7 +12,13 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+html,
+body {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: #ffdada !important;
+}
 a {
   font-weight: 500;
   color: #646cff;
@@ -28,6 +34,7 @@ body {
   place-items: center;
   min-width: 420px;
   min-height: 100vh;
+  justify-content: center;
 }
 
 h1 {
