@@ -64,7 +64,7 @@ button > * {
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 0;
-  min-width: 420px;
+  /* min-width: 420px; */
 }
 .row {
   justify-content: center;
@@ -77,8 +77,8 @@ button > * {
   align-items: center;
   color: #333;
   font-family: monospace;
-  min-width: 400px;
-  height: 60%;
+  /* min-width: 400px; */
+  height: fit-content;
   border: 2px solid white;
   border-radius: 20px;
   padding: 20px;
@@ -87,7 +87,7 @@ button > * {
   position: relative;
 }
 #root {
-  font-family: cursive !important;
+  font-family: Comic Sans MS !important;
 }
 #header {
   display: flex;
@@ -204,6 +204,6 @@ input::-webkit-inner-spin-button {
 }
 @media (max-width: 520px) {
   #box-parent {
-    scale: 0.9;
+    scale: 0.8;
   }
 }
